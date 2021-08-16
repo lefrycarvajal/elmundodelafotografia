@@ -89,10 +89,10 @@ include_once("header.php")
 						{
 							/* Conexion a la base de datos*/
 							/*Datos del Servidor MySql*/ 
-							$Servidor="localhost";
-							$UsarioDB="root";
-							$ClaveDB="";
-							$DB="dbelmundodelafotografia";
+							$Servidor="lfmerukkeiac5y5w.cbetxkdyhwsb.us-east-1.rds.amazonaws.com";
+							$UsarioDB="sutj46vk6mx7olh0";
+							$ClaveDB="pg6dxl4q5g9tbx3p";
+							$DB="d86efb2umavb64qn";
 							
 							/*Realizamos la conexion a la DB y verificamos si fue exitosa*/
 							$Conectarme= mysqli_connect($Servidor,$UsarioDB,$ClaveDB,$DB) or die ("Error con la Base de Datos") ;
